@@ -1,0 +1,142 @@
+﻿/* CSS Document */
+body {font:0.9em Arial, Helvetica, sans-serif;}
+#marco {width:770px; height:auto; border:1px solid #999999;	margin:0 auto; background:#FFFFFF; padding:0; }
+
+#headerPanel, #bottomPanel {height:120px; background:#CCCCCC; margin:0; }
+#headerPanel { background:url(imagenes/maquetado/fondoHeader.gif) repeat-x; border-bottom:1px dotted #CCCCCC;}
+
+#headerPanel h2{margin:0; padding-top:1em; color:#CC6600; }
+
+#bottomPanel {height:80px; background:url(imagenes/maquetado/fondoHeader2.gif) repeat-x bottom; border-top:1px dotted #CCCCCC;}
+
+#headerPanel #navSite {list-style:none; margin:0; padding:0; position:absolute; top:110px; }
+
+#headerPanel #navSite li {display:inline; padding:0.2em 0.8em; }
+
+#headerPanel #navSite li a { font:bold 0.8em Arial, Helvetica, sans-serif}
+
+#centralPanel {height:450px; margin:0; overflow:auto;}
+.reportes , .reportes2{height:350px; margin:0 1em;; overflow:auto; border:1px solid #666666; padding:0.5em;}
+
+.reportes2 { height:305px; }
+
+#centralPanel #itemProveedores, #centralPanel #itemCompras{float:left; width:38%; margin-top:1.5em; padding:0.5em; }
+
+#itemDetalles{float:left; width:55%; margin-top:1.5em; padding:0.5em; }
+
+#centralPanel #divIngresoVenta .itemVentaIzquierda{width:38%; }
+
+#centralPanel #divIngresoVenta .itemVentaDerecha,
+#centralPanel #divIngresoCompra .itemVentaDerecha {width:57%; overflow:auto; height:190px;}
+
+#centralPanel #itemCompras{}
+
+#centralPanel #itemPagos{width:49%; margin:0 auto; text-align:center; }
+
+.clearFloat {clear:both;}
+
+.centrarText {text-align:center;}
+
+form .claveValor {margin-bottom:.5em; }
+
+form  input {padding:0.15em; }
+
+form .claveValor label{float:left; width:100px;}
+
+form fieldset {padding-top:1em; }
+
+form table input,  form table select {border:none;}
+
+.campoChico {width:10em; }
+
+.campoNormal {width:14em; }
+
+.campoMedioNormal{width:18em;}
+
+.campoAncho {width:24em; }
+
+.campoSemiAncho {width:20em; }
+
+form .mediano {width:4em; padding:0;}
+
+form .pequenio {width:3em; padding:0;}
+
+form .masPequenio {width:3em; padding:0; }
+
+form fieldset.fechas {margin:1em 0; }
+form .labelFecha { margin-left:1em;}
+
+form .formOpcionesReportes {margin:1em; padding:0.5em 1em;}
+
+.oculto {display:none;}
+.visibleInline { display:inline;}
+
+table {font-size:0.9em; border-collapse:collapse; margin:0 auto; }
+
+table th {background:#006699; color:#FFFFFF; padding:0.1em .5em; border:1px solid #999999; font-size:.9em; }
+
+table td {padding:0.1em .5em; border:1px solid #999999; }
+
+.numeros, table td.mayusculas {font-size:.80em; }
+
+tbody.resumenVenta td { border:none; font-weight:bold; padding-right:1em;}
+
+.tablaRepDeposito { float:left; margin-left:1em; width:48%; }
+
+.zebra tr:hover { background:#B1CEEB; }
+.oscuro {background:#E4EBFA;}
+.expandida { width:92%;}
+.negrita { font-weight:bold; }
+
+
+.alineacionDerecha {text-align:right; padding-right:1em; }
+
+#divBloqueador {position:absolute; width:100%; height:710px; background:#000000; opacity:0.6; display:none; z-index:100; top:0; left:0;}
+
+#divIngreso, #divIngresoContacto, #divIngresoCuenta, #divIngresoCompra,
+#divIngresoCliente, #divIngresoVenta, #divIngresoPequenios
+{ position:fixed; 	background:#FFFFFF; top:50%; left:50%; width:600px; height:300px; margin-top:-170px; margin-left:-310px; padding:0.5em; border:10px solid #CCCCCC; -moz-border-radius: 10px; -webkit-border-radius: 10px; z-index:150; }
+
+#divIngresoContacto {height:370px; margin-top:-200px; }
+
+#divIngresoCuenta {height:240px; margin-top:-130px; }
+
+#divIngresoCompra {width:900px; margin-left:-465px; height:350px; margin-top:-250px; }
+
+#divIngresoCliente {width:580px; margin-left:-265px; height:350px; margin-top:-240px; }
+
+#divIngresoVenta { width:900px; margin-left:-465px; height:400px; margin-top:-260px; }
+
+#divIngresoPequenios { width:500px; margin-left:-260px; height:200px; margin-top:-145px; }
+
+.divLineaDerecha {
+	border-right: 1px dashed #999999;
+}
+
+.divListado {height:300px; border:0px dotted #CCCCCC; overflow:auto; }
+
+.divDetalle, .divDetalle2{position:fixed; background:#FFFFFF; border:10px solid #81B9D8; width:400px; height:250px; -moz-border-radius: 10px; -webkit-border-radius: 10px; z-index:150; padding:0.5em;}
+
+.divDetalle2{ width:350px; height:150px;}
+
+.divHelp { background:url(imagenes/maquetado/help.jpg) no-repeat bottom center; height:100%;}
+
+.paginacion {margin:0 auto; margin-top:1em; text-align:center; width:30%}
+.actualPage {font-weight:bold; color: #CC0000;}
+
+.parrafoCerrar {float:right; margin:0; }
+
+#tablaDetalle {margin-left:-4px; }
+
+#textTotalVenta , #textMontoAcumulado {font-weight:bold; color:#006699;}
+
+#textMontoAcumulado {color:#CC0000;}
+
+a { color:#0066CC; text-decoration:none; font:.9em Verdana, Arial, Helvetica, sans-serif}
+a:hover { color:#CC0000;}
+
+img { border:none;}
+
+hr {border:none; border-top: #CCCCCC thin dotted;}
+
+.imprimir { cursor: pointer; padding-top:0.8em;}

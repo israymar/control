@@ -1,0 +1,77 @@
+﻿BODY {
+	TEXT-ALIGN: center
+}
+#divContenedorCabecera {
+	WIDTH: 768px; HEIGHT: 127px; 
+MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#divMenuInftel {
+	POSITION: relative; WIDTH: 400px; FLOAT: right; HEIGHT: 18px; TOP: 79px
+}
+#divContenedorCuerpo {
+	WIDTH: 713px; 
+BACKGROUND: url('FondoCirculos.gif'); HEIGHT: 317px; 
+MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#divSeccionIzquierda {
+	POSITION: relative; WIDTH: 436px; FLOAT: center; HEIGHT: 278px;
+	top: 0px;
+	left: 0px;
+}
+#divTitulo {
+	POSITION: relative; WIDTH: 436px; FLOAT: right; HEIGHT: 127px
+}
+#divFormulario {
+	POSITION: relative; WIDTH: 382px; FLOAT: left; TOP: 0px; LEFT: 54px
+}
+#divSeccionDerecha {
+	POSITION: relative; WIDTH: 222px; 
+FLOAT: right; HEIGHT: 7px;
+	top: 2px;
+	left: 15px;
+}
+#divIndicaciones {
+	POSITION: relative; TEXT-ALIGN: left; WIDTH: 243px; FLOAT: right; TOP: 61px
+}
+#divLista {
+	POSITION: relative; WIDTH: 243px; FLOAT: left; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+#divLineaNaranja {
+	Z-INDEX: 2; POSITION: relative; TOP: 50px; LEFT: 50px
+}
+.fotocircular {
+	POSITION: relative; MARGIN-BOTTOM: 11px; FLOAT: right; TOP: 9px
+}
+{
+	POSITION: relative; FLOAT: left; TOP: 25px; LEFT: 50px
+}
+.tdEstiloformulario {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #6c6b68; FONT-SIZE: 10px
+}
+.tdEstiloformulario {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #6c6b68; FONT-SIZE: 10px
+}
+.sabespiensas {
+	POSITION: relative; MARGIN-TOP: 34px; FLOAT: right; RIGHT: 38px
+}
+TD.tdCuerpolista {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica; MARGIN-BOTTOM: 0px; HEIGHT: 15px; COLOR: #6c6b68; FONT-SIZE: 10px; PADDING-TOP: 0px; text-wrap: suppress
+}
+.tdEstiloform {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #6c6b68; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.txtLogin {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 10px
+}
+#divPiepagina {
+	MARGIN-TOP: 30px; WIDTH: 768px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.copyright {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #a09c94; FONT-SIZE: 11px
+}
+.formfields {
+
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #cccccc 1px solid; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fcfcfd
+
+}
+

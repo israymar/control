@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>CONTROL</Name>
+    <ProjectGuid>{c7658c8c-3a92-4ccb-abb3-c9c1eda447c8}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <SpecificPageValue>index.htm</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="clases\Cliente.php" />
+    <Compile Include="clases\Compra.php" />
+    <Compile Include="clases\Contacto.php" />
+    <Compile Include="clases\Cuenta.php" />
+    <Compile Include="clases\CuentaEmpresa.php" />
+    <Compile Include="clases\Db.php" />
+    <Compile Include="clases\DetalleCompra.php" />
+    <Compile Include="clases\DetalleDocVenta.php" />
+    <Compile Include="clases\Detalles.php" />
+    <Compile Include="clases\DetalleVenta.php" />
+    <Compile Include="clases\DocVenta.php" />
+    <Compile Include="clases\Empleado.php" />
+    <Compile Include="clases\Generales.php" />
+    <Compile Include="clases\Igv.php" />
+    <Compile Include="clases\Lugar.php" />
+    <Compile Include="clases\Paginacion.php" />
+    <Compile Include="clases\PagoEmpleado.php" />
+    <Compile Include="clases\PagoVenta.php" />
+    <Compile Include="clases\Proveedor.php" />
+    <Compile Include="clases\ReciboCompra.php" />
+    <Compile Include="clases\Rubro.php" />
+    <Compile Include="clases\TipoCuenta.php" />
+    <Compile Include="clases\Usuario.php" />
+    <Compile Include="clases\Venta.php" />
+    <Compile Include="db\syscontrol_DB.sql" />
+    <Compile Include="imagenes\maquetado\%24.jpg" />
+    <Compile Include="imagenes\maquetado\add.png" />
+    <Compile Include="imagenes\maquetado\backGround1.png" />
+    <Compile Include="imagenes\maquetado\BarraServicios.jpg" />
+    <Compile Include="imagenes\maquetado\bienvenidos.jpg" />
+    <Compile Include="imagenes\maquetado\cargando4.gif" />
+    <Compile Include="imagenes\maquetado\clientes.jpg" />
+    <Compile Include="imagenes\maquetado\compras.jpg" />
+    <Compile Include="imagenes\maquetado\contactos.jpg" />
+    <Compile Include="imagenes\maquetado\dinero.jpg" />
+    <Compile Include="imagenes\maquetado\employee.jpg" />
+    <Compile Include="imagenes\maquetado\escribir.jpg" />
+    <Compile Include="imagenes\maquetado\folder_previous.png" />
+    <Compile Include="imagenes\maquetado\folder_previous2.png" />
+    <Compile Include="imagenes\maquetado\fondoHeader.gif" />
+    <Compile Include="imagenes\maquetado\fondoHeader2.gif" />
+    <Compile Include="imagenes\maquetado\help.jpg" />
+    <Compile Include="imagenes\maquetado\hojaCalculo.jpg" />
+    <Compile Include="imagenes\maquetado\igv.jpg" />
+    <Compile Include="imagenes\maquetado\inftelperu.jpg" />
+    <Compile Include="imagenes\maquetado\migrate.jpg" />
+    <Compile Include="imagenes\maquetado\movimientos.jpg" />
+    <Compile Include="imagenes\maquetado\pages_add.png" />
+    <Compile Include="imagenes\maquetado\pages_blank_add.png" />
+    <Compile Include="imagenes\maquetado\pagos.jpg" />
+    <Compile Include="imagenes\maquetado\print.jpg" />
+    <Compile Include="imagenes\maquetado\print.png" />
+    <Compile Include="imagenes\maquetado\printer_accept.png" />
+    <Compile Include="imagenes\maquetado\prov.jpg" />
+    <Compile Include="imagenes\maquetado\remove.png" />
+    <Compile Include="imagenes\maquetado\reportes1.jpg" />
+    <Compile Include="imagenes\maquetado\reportes2.jpg" />
+    <Compile Include="imagenes\maquetado\reportes3.jpg" />
+    <Compile Include="imagenes\maquetado\rubro.jpg" />
+    <Compile Include="imagenes\maquetado\salida.png" />
+    <Compile Include="imagenes\maquetado\subclientes.jpg" />
+    <Compile Include="imagenes\maquetado\Thumbs.db" />
+    <Compile Include="imagenes\maquetado\tipoCuenta.jpg" />
+    <Compile Include="imagenes\maquetado\torre.jpg" />
+    <Compile Include="imagenes\maquetado\ventas.jpg" />
+    <Compile Include="imagenes\BarraServicios1.jpg" />
+    <Compile Include="imagenes\bienvenidos.gif" />
+    <Compile Include="imagenes\bienvenidos.jpg" />
+    <Compile Include="imagenes\bienvenidos.png" />
+    <Compile Include="imagenes\bienvenidos.psd" />
+    <Compile Include="imagenes\btnIngresarOff.gif" />
+    <Compile Include="imagenes\btnIngresarOn.gif" />
+    <Compile Include="imagenes\btnInicioOff.gif" />
+    <Compile Include="imagenes\btnInicioOn.gif" />
+    <Compile Include="imagenes\FondoCirculos.gif" />
+    <Compile Include="imagenes\MarcoInferior.gif" />
+    <Compile Include="imagenes\MarcoSuperior.gif" />
+    <Compile Include="imagenes\mmrollovers.js" />
+    <Compile Include="imagenes\spacer.gif" />
+    <Compile Include="imagenes\styles.css" />
+    <Compile Include="imagenes\tAquiPodras.gif" />
+    <Compile Include="imagenes\Thumbs.db" />
+    <Compile Include="imagenes\tUsuariosRegistrados.gif" />
+    <Compile Include="imagenes\VinetaNaranja.gif" />
+    <Compile Include="libs\FirePHPCore\_vti_cnf\fb.php" />
+    <Compile Include="libs\FirePHPCore\_vti_cnf\FirePHP.class.php" />
+    <Compile Include="libs\FirePHPCore\fb.php" />
+    <Compile Include="libs\FirePHPCore\FirePHP.class.php" />
+    <Compile Include=".htaccess" />
+    <Compile Include="404.php" />
+    <Compile Include="autoCarga.php" />
+    <Compile Include="cargaDetReporteDepositos.php" />
+    <Compile Include="cargaModificaciones.php" />
+    <Compile Include="cargaModificaciones2.php" />
+    <Compile Include="cargaRepCompraVenta.php" />
+    <Compile Include="cargaReporteConsolidados.php" />
+    <Compile Include="cargaReporteSubClientes.php" />
+    <Compile Include="cargarReporteVentas.php" />
+    <Compile Include="cargarReporteVentas2.php" />
+    <Compile Include="compras.php" />
+    <Compile Include="configuracion.php" />
+    <Compile Include="consolidaVentasSubCliente.php" />
+    <Compile Include="consultaDetalleCompra.php" />
+    <Compile Include="consultaDetalleVenta.php" />
+    <Compile Include="control.php" />
+    <Compile Include="eliminarCliente.php" />
+    <Compile Include="eliminarCompra.php" />
+    <Compile Include="eliminarContacto.php" />
+    <Compile Include="eliminarCuenta.php" />
+    <Compile Include="eliminarDetalles.php" />
+    <Compile Include="eliminarDocVenta.php" />
+    <Compile Include="eliminarEmpleado.php" />
+    <Compile Include="eliminarLugar.php" />
+    <Compile Include="eliminarPagoCompra.php" />
+    <Compile Include="eliminarPagoEmpleado.php" />
+    <Compile Include="eliminarPagoVenta.php" />
+    <Compile Include="eliminarProveedor.php" />
+    <Compile Include="eliminarRubro.php" />
+    <Compile Include="eliminarVenta.php" />
+    <Compile Include="empleados.php" />
+    <Compile Include="facturasVenta.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="formIngFacturaVenta.php" />
+    <Compile Include="funcionesJSmin.js" />
+    <Compile Include="gestionClientes.php" />
+    <Compile Include="gestionCompras.php" />
+    <Compile Include="gestionCompraVenta.php" />
+    <Compile Include="gestionContactos.php" />
+    <Compile Include="gestionCuentas.php" />
+    <Compile Include="gestionDetalles.php" />
+    <Compile Include="gestionEmpleados.php" />
+    <Compile Include="gestionIgv.php" />
+    <Compile Include="gestionPagosCompras.php" />
+    <Compile Include="gestionPagosEmpleado.php" />
+    <Compile Include="gestionPagosVentas.php" />
+    <Compile Include="gestionProveedores.php" />
+    <Compile Include="gestionReporteVentas.php" />
+    <Compile Include="gestionRubro.php" />
+    <Compile Include="gestionVentas.php" />
+    <Compile Include="header.php" />
+    <Compile Include="help.php" />
+    <Compile Include="hojaEstilos.css" />
+    <Compile Include="impresiones.php" />
+    <Compile Include="index.htm" />
+    <Compile Include="ingresoCliente.php" />
+    <Compile Include="ingresoCompra.php" />
+    <Compile Include="ingresoContacto.php" />
+    <Compile Include="ingresoCuenta.php" />
+    <Compile Include="ingresoDetalles.php" />
+    <Compile Include="ingresoEmpleado.php" />
+    <Compile Include="ingresoFactura.php" />
+    <Compile Include="ingresoIgv.php" />
+    <Compile Include="ingresoLugar.php" />
+    <Compile Include="ingresoPagoEmpleado.php" />
+    <Compile Include="ingresoPagoVenta.php" />
+    <Compile Include="ingresoProveedor.php" />
+    <Compile Include="ingresoReciboCompra.php" />
+    <Compile Include="ingresoRubro.php" />
+    <Compile Include="ingresoTipoCuenta.php" />
+    <Compile Include="ingresoVenta.php" />
+    <Compile Include="json.js" />
+    <Compile Include="logout.php" />
+    <Compile Include="lugares.php" />
+    <Compile Include="motorAjax.js" />
+    <Compile Include="ofuscador.php" />
+    <Compile Include="proveedores.php" />
+    <Compile Include="pruebaFirePhp.php" />
+    <Compile Include="reporteConsolidadoTotales.php" />
+    <Compile Include="reporteMovimientos.php" />
+    <Compile Include="reportes.php" />
+    <Compile Include="reporteSubclientes.php" />
+    <Compile Include="session.php" />
+    <Compile Include="totalesPagoVenta.php" />
+    <Compile Include="ventas.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="clases" />
+    <Folder Include="db" />
+    <Folder Include="imagenes\maquetado" />
+    <Folder Include="imagenes" />
+    <Folder Include="libs\FirePHPCore\_vti_cnf" />
+    <Folder Include="libs\FirePHPCore" />
+    <Folder Include="libs" />
+  </ItemGroup>
+</Project>
